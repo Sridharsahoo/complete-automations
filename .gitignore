@@ -1,0 +1,13 @@
+# Windows files
+desktop.ini
+**/desktop.ini
+
+# Secrets and environment files
+.env
+.env.*
+!.env.example
+
+# Common generated files
+__pycache__/
+*.pyc
+.DS_Store
